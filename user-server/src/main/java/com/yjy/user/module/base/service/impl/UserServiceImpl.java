@@ -1,26 +1,23 @@
 package com.yjy.user.module.base.service.impl;
 
-import cn.hutool.core.util.ObjectUtil;
-import cn.hutool.crypto.SecureUtil;
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.yjy.common.enums.CommonStatus;
-import com.yjy.user.dto.UserLoginRequest;
-import com.yjy.user.dto.UserRegisterRequest;
-import com.yjy.user.module.base.entity.User;
-import com.yjy.user.module.base.mapper.UserMapper;
-import com.yjy.user.module.base.service.IUserService;
-import com.yjy.common.utils.ResultUtil;
-import com.yjy.common.vo.Result;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 
-/**
- * 
- */
-@SuppressWarnings({"SpringJavaInjectionPointsAutowiringInspection", "SpringJavaAutowiredFieldsWarningInspection"})
-@Service
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.yjy.common.enums.CommonStatus;
+import com.yjy.common.utils.ResultUtil;
+import com.yjy.common.vo.Result;
+import com.yjy.user.module.base.controller.request.UserLoginRequest;
+import com.yjy.user.module.base.controller.request.UserRegisterRequest;
+import com.yjy.user.module.base.entity.User;
+import com.yjy.user.module.base.mapper.UserMapper;
+import com.yjy.user.module.base.service.IUserService;
 
+import cn.hutool.core.util.ObjectUtil;
+import cn.hutool.crypto.SecureUtil;
+
+@Service
 public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IUserService {
 
     @Autowired

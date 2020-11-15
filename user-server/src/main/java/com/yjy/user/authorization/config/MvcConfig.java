@@ -9,18 +9,18 @@ import java.util.List;
 
 /**
  * 配置类，增加自定义拦截器和解析器
+ * 
  * @see com.yjy.user.authorization.resolvers.CurrentUserMethodArgumentResolver
  * 
  */
-@SuppressWarnings("SpringJavaAutowiredFieldsWarningInspection")
 @Configuration
 public class MvcConfig extends WebMvcConfigurationSupport {
 
-    @Autowired
-    private CurrentUserMethodArgumentResolver currentUserMethodArgumentResolver;
+	@Autowired
+	private CurrentUserMethodArgumentResolver currentUserMethodArgumentResolver;
 
-    @Override
-    public void addArgumentResolvers(List<HandlerMethodArgumentResolver> argumentResolvers) {
-        argumentResolvers.add(currentUserMethodArgumentResolver);
-    }
+	@Override
+	public void addArgumentResolvers(List<HandlerMethodArgumentResolver> argumentResolvers) {
+		argumentResolvers.add(currentUserMethodArgumentResolver);
+	}
 }

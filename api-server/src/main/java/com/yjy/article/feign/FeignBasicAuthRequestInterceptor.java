@@ -1,4 +1,4 @@
-package com.yjy.article.interceptor;
+package com.yjy.article.feign;
 
 import feign.RequestInterceptor;
 import feign.RequestTemplate;
@@ -9,8 +9,6 @@ import javax.servlet.http.HttpServletRequest;
 
 /**
  * Feign请求拦截器, 将当前请求的token放入到feign请求的头部，为了服务间调用，不用每次传token
- *
- * @author xiaomalover
  */
 public class FeignBasicAuthRequestInterceptor implements RequestInterceptor {
 

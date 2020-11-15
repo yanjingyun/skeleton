@@ -1,10 +1,7 @@
 package com.yjy.gateway.filter;
 
-import com.alibaba.fastjson.JSONObject;
-import com.yjy.common.constant.TokenConstant;
-import com.yjy.common.utils.ResultUtil;
-import com.yjy.common.vo.Result;
-import lombok.extern.slf4j.Slf4j;
+import java.nio.charset.StandardCharsets;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.gateway.filter.GatewayFilterChain;
 import org.springframework.cloud.gateway.filter.GlobalFilter;
@@ -19,17 +16,19 @@ import org.springframework.stereotype.Component;
 import org.springframework.util.AntPathMatcher;
 import org.springframework.util.StringUtils;
 import org.springframework.web.server.ServerWebExchange;
+
+import com.alibaba.fastjson.JSONObject;
+import com.yjy.common.constant.TokenConstant;
+import com.yjy.common.utils.ResultUtil;
+import com.yjy.common.vo.Result;
+
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
-import java.nio.charset.StandardCharsets;
 
 /**
  * token校验全局过滤器
- *
- * 
  */
 @Component
-@Slf4j
 public class AuthorizeFilter implements GlobalFilter, Ordered {
 
     @Autowired
@@ -77,12 +76,11 @@ public class AuthorizeFilter implements GlobalFilter, Ordered {
         return chain.filter(exchange);
     }
 
-    private Mono<Void> getResponseMono(ServerWebExchange exchange)
-    {
+    private Mono<Void> getResponseMono(ServerWebExchange exchange) {
         ServerHttpResponse response = exchange.getResponse();
         response.setStatusCode(HttpStatus.UNAUTHORIZED);
         response.getHeaders().add("Content-Type", "application/json");
-        Result result = new ResultUtil<>().setErrorMsg(HttpStatus.UNAUTHORIZED.value(), HttpStatus.UNAUTHORIZED.getReasonPhrase());
+        Result<Object> result = new ResultUtil<Object>().setErrorMsg(HttpStatus.UNAUTHORIZED.value(), HttpStatus.UNAUTHORIZED.getReasonPhrase());
         String resultJson = JSONObject.toJSONString(result);
         byte[] bytes = resultJson.getBytes(StandardCharsets.UTF_8);
         DataBuffer buffer = response.bufferFactory().wrap(bytes);

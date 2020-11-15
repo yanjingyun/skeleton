@@ -1,22 +1,22 @@
 package com.yjy.user.module.base.controller;
 
-import com.yjy.user.authorization.annotation.CurrentUser;
-import com.yjy.user.authorization.manager.TokenManager;
-import com.yjy.user.dto.UserLoginRequest;
-import com.yjy.user.dto.UserRegisterRequest;
-import com.yjy.user.module.base.entity.User;
-import com.yjy.user.module.base.service.IUserService;
-import com.yjy.common.utils.ResultUtil;
-import com.yjy.common.vo.Result;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 
-/**
- * 
- * 用户控制器
- */
-@SuppressWarnings("SpringJavaAutowiredFieldsWarningInspection")
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.yjy.common.utils.ResultUtil;
+import com.yjy.common.vo.Result;
+import com.yjy.user.authorization.annotation.CurrentUser;
+import com.yjy.user.authorization.manager.TokenManager;
+import com.yjy.user.module.base.controller.request.UserLoginRequest;
+import com.yjy.user.module.base.controller.request.UserRegisterRequest;
+import com.yjy.user.module.base.entity.User;
+import com.yjy.user.module.base.service.IUserService;
+
 @RestController
 @RequestMapping(value = "user")
 public class UserController {
@@ -27,15 +27,21 @@ public class UserController {
     @Autowired
     private TokenManager tokenManager;
 
+    /**
+     * 注册用户
+     */
     @PostMapping("/register")
     public Object register(@Valid UserRegisterRequest userRegisterRequest) {
         return userService.register(userRegisterRequest);
     }
 
+    /**
+     * 用户登录
+     */
     @PostMapping("/login")
     public Object login(@Valid UserLoginRequest userLoginRequest) {
         //走服务端登录服务
-        Result loginResult = userService.login(userLoginRequest);
+        Result<Object> loginResult = userService.login(userLoginRequest);
         if (loginResult.isSuccess()) {
             //服务端返回成功存入TOKEN
             User userModel = (User) loginResult.getResult();

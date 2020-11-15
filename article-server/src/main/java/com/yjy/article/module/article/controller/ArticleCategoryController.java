@@ -12,30 +12,18 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-/**
- * <p>
- *  前端控制器
- * </p>
- *
- * 
- * @since 2020-03-01
- */
 @RestController
 @RequestMapping("/article/articleCategory")
 public class ArticleCategoryController {
 
-    @Autowired
-    IArticleCategoryService articleCategoryService;
+	@Autowired
+	IArticleCategoryService articleCategoryService;
 
-    @GetMapping("/list")
-    public Result<List<ArticleCategory>> getByParentId() {
-
-        QueryWrapper<ArticleCategory> articleCategoryQueryWrapper = new QueryWrapper<>();
-        articleCategoryQueryWrapper.eq("status", 1).orderByAsc("sort_no");
-        List<ArticleCategory> list = articleCategoryService.list(articleCategoryQueryWrapper);
-        // lambda表达式
-        list.forEach(item -> {
-        });
-        return new ResultUtil<List<ArticleCategory>>().setData(list);
-    }
+	@GetMapping("/list")
+	public Result<List<ArticleCategory>> getByParentId() {
+		QueryWrapper<ArticleCategory> articleCategoryQueryWrapper = new QueryWrapper<>();
+		articleCategoryQueryWrapper.eq("status", 1).orderByAsc("sort_no");
+		List<ArticleCategory> list = articleCategoryService.list(articleCategoryQueryWrapper);
+		return new ResultUtil<List<ArticleCategory>>().setData(list);
+	}
 }

@@ -1,4 +1,4 @@
-package com.yjy.user.handler;
+package com.yjy.user.mybatisplus;
 
 import com.baomidou.mybatisplus.core.handlers.MetaObjectHandler;
 import org.apache.ibatis.reflection.MetaObject;
@@ -7,8 +7,6 @@ import org.springframework.stereotype.Component;
 /**
  * 填充器, 新增和修改时自动填充时间
  * 配合实体中的 @TableField(fill= FieldFill.INSERT) 和 @TableField(fill= FieldFill.INSERT_UPDATE) 使用
- *
- * 
  */
 @Component
 public class MyMetaObjectHandler implements MetaObjectHandler {

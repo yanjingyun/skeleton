@@ -17,12 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 /**
- * <p>
  * 文章表 前端控制器
- * </p>
- *
- * 
- * @since 2020-03-01
  */
 @RestController
 @RequestMapping("/article/articleInfo")

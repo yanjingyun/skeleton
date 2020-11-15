@@ -3,8 +3,6 @@ package com.yjy.admin.common.constant;
 
 /**
  * 常量
- *
- * 
  */
 public interface CommonConstant {
 

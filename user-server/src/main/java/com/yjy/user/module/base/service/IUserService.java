@@ -1,10 +1,10 @@
 package com.yjy.user.module.base.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.yjy.user.dto.UserLoginRequest;
-import com.yjy.user.module.base.entity.User;
-import com.yjy.user.dto.UserRegisterRequest;
 import com.yjy.common.vo.Result;
+import com.yjy.user.module.base.controller.request.UserLoginRequest;
+import com.yjy.user.module.base.controller.request.UserRegisterRequest;
+import com.yjy.user.module.base.entity.User;
 
 /**
  * 
@@ -17,14 +17,14 @@ public interface IUserService extends IService<User> {
      * @param userRegisterRequest 注册实体
      * @return User
      */
-    Result register(UserRegisterRequest userRegisterRequest);
+    Result<Object> register(UserRegisterRequest userRegisterRequest);
 
     /**
      * 用户登录
      * @param userLoginRequest 登录实体
      * @return Object
      */
-    Result login(UserLoginRequest userLoginRequest);
+    Result<Object> login(UserLoginRequest userLoginRequest);
 
     /**
      * 查询一个用户

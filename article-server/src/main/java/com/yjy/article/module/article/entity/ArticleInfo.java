@@ -7,12 +7,7 @@ import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
 
 /**
- * <p>
  * 文章表
- * </p>
- *
- * 
- * @since 2020-03-01
  */
 @Data
 @EqualsAndHashCode(callSuper = true)

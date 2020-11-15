@@ -1,8 +1,5 @@
 package com.yjy.admin.common.constant;
 
-/**
- * 
- */
 public interface SecurityConstant {
 
     /**

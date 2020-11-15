@@ -26,10 +26,10 @@ public class RestExceptionHandler {
      */
     @ExceptionHandler(BindException.class)
     @ResponseStatus(HttpStatus.OK)
-    public Result error(BindException e) {
+    public Result<String> error(BindException e) {
         List<ObjectError> allErrors = e.getAllErrors(); // 拿到异常信息
         String errMessage = getErrMessage(allErrors);   // 拼接, 返回前端
-        return new ResultUtil<>().setErrorMsg(errMessage);
+        return new ResultUtil<String>().setErrorMsg(errMessage);
     }
 
     /**

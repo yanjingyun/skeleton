@@ -4,7 +4,6 @@ import com.yjy.common.vo.Result;
 
 /**
  * 用户相关api本地服务接口的示例服务
- * 
  */
 public interface IUserLocalService {
     /**
@@ -12,5 +11,5 @@ public interface IUserLocalService {
      * @param name 名字
      * @return 结果
      */
-    Result sayHello(String name);
+	Result<Object> sayHello(String name);
 }

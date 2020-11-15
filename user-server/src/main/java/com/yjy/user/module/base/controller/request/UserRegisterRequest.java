@@ -1,4 +1,4 @@
-package com.yjy.user.dto;
+package com.yjy.user.module.base.controller.request;
 
 import lombok.Data;
 import org.hibernate.validator.constraints.Length;

@@ -6,26 +6,25 @@ import java.util.concurrent.Callable;
 
 /**
  * 必须加此配置才能在feign线程的上下文中获取当前请求的上下文
- *
- * 
  */
 public class RequestContextHolderCallable<V> implements Callable<V> {
-    private final Callable<V> delegate;
-    private final RequestAttributes originalRequestAttributes;
 
-    RequestContextHolderCallable(Callable<V> delegate, RequestAttributes originalRequestAttributes) {
-        this.delegate = delegate;
-        this.originalRequestAttributes = originalRequestAttributes;
-    }
+	private final Callable<V> delegate;
+	private final RequestAttributes originalRequestAttributes;
 
-    @Override
-    public V call() throws Exception {
-        RequestAttributes currentRequestAttributes = RequestContextHolder.getRequestAttributes();
-        try {
-            RequestContextHolder.setRequestAttributes(originalRequestAttributes);
-            return delegate.call();
-        } finally {
-            RequestContextHolder.setRequestAttributes(currentRequestAttributes);
-        }
-    }
+	RequestContextHolderCallable(Callable<V> delegate, RequestAttributes originalRequestAttributes) {
+		this.delegate = delegate;
+		this.originalRequestAttributes = originalRequestAttributes;
+	}
+
+	@Override
+	public V call() throws Exception {
+		RequestAttributes currentRequestAttributes = RequestContextHolder.getRequestAttributes();
+		try {
+			RequestContextHolder.setRequestAttributes(originalRequestAttributes);
+			return delegate.call();
+		} finally {
+			RequestContextHolder.setRequestAttributes(currentRequestAttributes);
+		}
+	}
 }

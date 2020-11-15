@@ -19,11 +19,9 @@ import org.springframework.web.method.support.ModelAndViewContainer;
  * @see com.yjy.user.authorization.annotation.CurrentUser
  * 
  */
-@SuppressWarnings("NullableProblems")
 @Component
 public class CurrentUserMethodArgumentResolver implements HandlerMethodArgumentResolver {
 
-    @SuppressWarnings("SpringJavaAutowiredFieldsWarningInspection")
     @Autowired
     TokenManager tokenManager;
 
