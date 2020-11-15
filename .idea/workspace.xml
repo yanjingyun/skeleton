@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="43aad5a6-5fab-418c-bc63-f158f58ef347" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/shared/admin-server-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/shared/api-server-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/shared/article-server-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/shared/config-server-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/shared/eureka-server-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/shared/gateway-server-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/shared/user-server-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server-template/src/views/module/sys/quartz-manage/quartzManage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin-server-template/src/views/module/sys/quartz-manage/quartzManage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/AdminApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/common/annotation/SystemLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/common/aop/SystemLogAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/common/constant/CommonConstant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/common/constant/SecurityConstant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/common/handler/MyMetaObjectHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/common/handler/PermissionEditor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/common/handler/RolesEditor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/common/ueditor/ActionEnter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/common/ueditor/ConfigManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/common/ueditor/Encoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/common/ueditor/PathFormat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/common/ueditor/SpringUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/common/ueditor/define/ActionMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/common/ueditor/define/ActionState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/common/ueditor/define/AppInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/common/ueditor/define/BaseState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/common/ueditor/define/FileType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/common/ueditor/define/MIMEType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/common/ueditor/define/MultiState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/common/ueditor/define/State.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/common/ueditor/hunter/FileManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/common/ueditor/hunter/ImageHunter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/common/ueditor/upload/Base64Uploader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/common/ueditor/upload/BinaryUploader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/common/ueditor/upload/StorageManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/common/ueditor/upload/Uploader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/common/utils/ImageUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/common/utils/IpInfoUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/common/utils/ObjectUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/common/utils/ResponseUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/common/utils/ThreadPoolUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/config/IgnoredUrlsProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/config/exception/LoginFailLimitException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/config/exception/RestCtrlExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/config/exception/SkeletonException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/config/mybatisplus/MybatisPlusConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/config/security/SecurityUserDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/config/security/UserDetailsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/config/security/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/config/security/jwt/AuthenticationFailHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/config/security/jwt/AuthenticationSuccessHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/config/security/jwt/JWTAuthenticationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/config/security/jwt/RestAccessDeniedHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/config/security/permission/MyAccessDecisionManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/config/security/permission/MyFilterSecurityInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/config/security/permission/MySecurityMetadataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/article/controller/ArticleCategoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/article/controller/ArticleInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/article/entity/ArticleCategory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/article/entity/ArticleInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/article/mapper/ArticleCategoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/article/mapper/ArticleInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/article/service/IArticleCategoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/article/service/IArticleInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/article/service/impl/ArticleCategoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/article/service/impl/ArticleInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/sys/controller/AdminController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/sys/controller/AdminLogController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/sys/controller/CaptchaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/sys/controller/DepartmentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/sys/controller/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/sys/controller/PermissionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/sys/controller/QuartzJobController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/sys/controller/RoleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/sys/controller/SecurityController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/sys/controller/UeditorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/sys/controller/UploadController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/sys/entity/Admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/sys/entity/AdminLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/sys/entity/AdminRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/sys/entity/Department.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/sys/entity/Permission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/sys/entity/QuartzJob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/sys/entity/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/sys/entity/RolePermission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/sys/mapper/AdminLogMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/sys/mapper/AdminMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/sys/mapper/DepartmentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/sys/mapper/PermissionMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/sys/mapper/QuartzJobMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/sys/mapper/RoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/sys/mapper/RolePermissionMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/sys/mapper/UserRoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/sys/service/IAdminLogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/sys/service/IAdminService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/sys/service/IDepartmentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/sys/service/IPermissionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/sys/service/IQuartzJobService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/sys/service/IRolePermissionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/sys/service/IRoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/sys/service/IUserRoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/sys/service/impl/AdminLogServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/sys/service/impl/AdminServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/sys/service/impl/DepartmentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/sys/service/impl/IUserRoleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/sys/service/impl/PermissionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/sys/service/impl/QuartzJobServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/sys/service/impl/RolePermissionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/sys/service/impl/RoleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/user/controller/UserInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/user/entity/UserInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/user/mapper/UserInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/user/service/IUserInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/module/user/service/impl/UserInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/quartz/jobs/JobWithParam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/java/com/xm/admin/quartz/jobs/JobWithoutParam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/resources/mapper/article/ArticleCategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-server/src/main/resources/mapper/article/ArticleCategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/resources/mapper/article/ArticleInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-server/src/main/resources/mapper/article/ArticleInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/resources/mapper/sys/AdminLogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-server/src/main/resources/mapper/sys/AdminLogMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/resources/mapper/sys/AdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-server/src/main/resources/mapper/sys/AdminMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/resources/mapper/sys/DepartmentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-server/src/main/resources/mapper/sys/DepartmentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/resources/mapper/sys/PermissionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-server/src/main/resources/mapper/sys/PermissionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/resources/mapper/sys/QuartzJobMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-server/src/main/resources/mapper/sys/QuartzJobMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/resources/mapper/sys/RoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-server/src/main/resources/mapper/sys/RoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/resources/mapper/sys/RolePermissionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-server/src/main/resources/mapper/sys/RolePermissionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/resources/mapper/sys/UserRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-server/src/main/resources/mapper/sys/UserRoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/resources/mapper/user/UserInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-server/src/main/resources/mapper/user/UserInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-server/src/main/resources/static/js/chunk-21fe297f.ed62c847.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin-server/src/main/resources/static/js/chunk-21fe297f.ed62c847.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/xm/article/ApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/xm/article/config/FeignConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/xm/article/hystrix/RequestContextHolderCallable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/xm/article/hystrix/RequestContextHolderHystrixConcurrencyStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/xm/article/interceptor/FeignBasicAuthRequestInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/xm/article/module/base/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/xm/article/module/base/feign/UserFeignService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/xm/article/module/base/feign/impl/UserFeignServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/xm/article/module/base/service/IUserLocalService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/com/xm/article/module/base/service/impl/UserLocalServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-server/src/test/java/com/xm/article/OrderApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/article-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article-server/src/main/java/com/xm/article/ArticleApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article-server/src/main/java/com/xm/article/config/mybatisplus/MybatisPlusConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article-server/src/main/java/com/xm/article/module/article/controller/ArticleCategoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article-server/src/main/java/com/xm/article/module/article/controller/ArticleInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article-server/src/main/java/com/xm/article/module/article/entity/ArticleCategory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article-server/src/main/java/com/xm/article/module/article/entity/ArticleInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article-server/src/main/java/com/xm/article/module/article/mapper/ArticleCategoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article-server/src/main/java/com/xm/article/module/article/mapper/ArticleInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article-server/src/main/java/com/xm/article/module/article/service/IArticleCategoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article-server/src/main/java/com/xm/article/module/article/service/IArticleInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article-server/src/main/java/com/xm/article/module/article/service/impl/ArticleCategoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article-server/src/main/java/com/xm/article/module/article/service/impl/ArticleInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article-server/src/main/resources/mapper/article/ArticleCategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/article-server/src/main/resources/mapper/article/ArticleCategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article-server/src/main/resources/mapper/article/ArticleInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/article-server/src/main/resources/mapper/article/ArticleInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article-server/src/test/java/com/xm/article/ArticleApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-lib/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common-lib/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-lib/src/main/java/com/xm/common/constant/TokenConstant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-lib/src/main/java/com/xm/common/entity/BaseCommonEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-lib/src/main/java/com/xm/common/entity/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-lib/src/main/java/com/xm/common/enums/CommonStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-lib/src/main/java/com/xm/common/utils/CaptchaUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-lib/src/main/java/com/xm/common/utils/CommonPageUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-lib/src/main/java/com/xm/common/utils/ResultUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-lib/src/main/java/com/xm/common/utils/SnowFlakeUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-lib/src/main/java/com/xm/common/vo/Captcha.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-lib/src/main/java/com/xm/common/vo/ExtraVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-lib/src/main/java/com/xm/common/vo/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-lib/src/main/java/com/xm/common/vo/Token.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/java/com/xm/config/ConfigServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/test/java/com/xm/config/ConfigServerApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/java/com/xm/eureka/EurekaServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/test/java/com/xm/eureka/EurekaServerApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-server/src/main/java/com/xm/gateway/GatewayApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-server/src/main/java/com/xm/gateway/filter/AuthorizeFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-server/src/test/java/com/xm/gateway/GatewayApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/generator/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/src/main/java/com/xm/generator/Generator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/src/main/java/com/xm/user/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-server/src/main/java/com/yjy/user/UserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/src/main/java/com/xm/user/authorization/annotation/CurrentUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/src/main/java/com/xm/user/authorization/config/MvcConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/src/main/java/com/xm/user/authorization/manager/TokenManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/src/main/java/com/xm/user/authorization/manager/impl/RedisTokenManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/src/main/java/com/xm/user/authorization/resolvers/CurrentUserMethodArgumentResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/src/main/java/com/xm/user/config/mybatisplus/MybatisPlusConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/src/main/java/com/xm/user/dto/UserLoginRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/src/main/java/com/xm/user/dto/UserRegisterRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/src/main/java/com/xm/user/exception/RestErrorFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/src/main/java/com/xm/user/exception/RestExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/src/main/java/com/xm/user/handler/MyMetaObjectHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/src/main/java/com/xm/user/module/base/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/src/main/java/com/xm/user/module/base/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/src/main/java/com/xm/user/module/base/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/src/main/java/com/xm/user/module/base/service/IUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/src/main/java/com/xm/user/module/base/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/src/main/resources/mapper/base/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-server/src/main/resources/mapper/base/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/src/test/java/com/xm/user/ApiApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:\gitManager\dev\apache-maven-3.3.9" />
+        <option name="usePluginRegistry" value="true" />
+        <option name="userSettingsFile" value="D:\gitManager\dev\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kHSkTOmJ3VhKowGTn6hWS7xrZM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\gitManager\gitCode\xm-skeleton\config-server\src\main\resources\shared" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="admin-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yjy.admin.AdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="api-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yjy.article.ApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArticleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="article-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yjy.article.ArticleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yjy.config.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yjy.eureka.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gateway-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yjy.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yjy.user.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="Spring Boot.ArticleApplication" />
+      <item itemvalue="Spring Boot.ApiApplication" />
+      <item itemvalue="Spring Boot.AdminApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="43aad5a6-5fab-418c-bc63-f158f58ef347" name="Default Changelist" comment="" />
+      <created>1605356168141</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605356168141</updated>
+      <workItem from="1605356169254" duration="12942000" />
+      <workItem from="1605409378230" duration="109000" />
+      <workItem from="1605409741886" duration="934000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1605409913370">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1605409913370" />
+    <state width="1120" height="178" key="GridCell.Tab.0.bottom" timestamp="1605410485800">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1120" height="178" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605410485800" />
+    <state width="1120" height="178" key="GridCell.Tab.0.center" timestamp="1605410485800">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1120" height="178" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605410485800" />
+    <state width="1120" height="178" key="GridCell.Tab.0.left" timestamp="1605410485800">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1120" height="178" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605410485800" />
+    <state width="1120" height="178" key="GridCell.Tab.0.right" timestamp="1605410485800">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1120" height="178" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605410485800" />
+    <state width="1120" height="178" key="GridCell.Tab.1.bottom" timestamp="1605410485800">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1120" height="178" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605410485800" />
+    <state width="1120" height="178" key="GridCell.Tab.1.center" timestamp="1605410485800">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1120" height="178" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1605410485800" />
+    <state width="1120" height="178" key="GridCell.Tab.1.left" timestamp="1605410485800">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1120" height="178" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1605410485800" />
+    <state width="1120" height="178" key="GridCell.Tab.1.right" timestamp="1605410485800">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1120" height="178" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1605410485800" />
+    <state width="1120" height="178" key="GridCell.Tab.2.bottom" timestamp="1605410485801">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1120" height="178" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605410485801" />
+    <state width="1120" height="178" key="GridCell.Tab.2.center" timestamp="1605410485800">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1120" height="178" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1605410485800" />
+    <state width="1120" height="178" key="GridCell.Tab.2.left" timestamp="1605410485800">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1120" height="178" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1605410485800" />
+    <state width="1120" height="178" key="GridCell.Tab.2.right" timestamp="1605410485801">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1120" height="178" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1605410485801" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1605358505927">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1605358505927" />
+    <state x="468" y="144" width="600" height="536" key="find.popup" timestamp="1605366132523">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="468" y="144" width="600" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1605366132523" />
+    <state x="146" y="50" key="new project wizard" timestamp="1605362025175">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="146" y="50" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1605362025175" />
+  </component>
+</project>

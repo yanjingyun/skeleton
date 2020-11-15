@@ -1,0 +1,10 @@
+D:\gitManager\gitCode\xm-skeleton\api-server\src\main\java\com\xm\article\interceptor\FeignBasicAuthRequestInterceptor.java
+D:\gitManager\gitCode\xm-skeleton\api-server\src\main\java\com\xm\article\module\base\service\IUserLocalService.java
+D:\gitManager\gitCode\xm-skeleton\api-server\src\main\java\com\xm\article\config\FeignConfiguration.java
+D:\gitManager\gitCode\xm-skeleton\api-server\src\main\java\com\xm\article\ApiApplication.java
+D:\gitManager\gitCode\xm-skeleton\api-server\src\main\java\com\xm\article\module\base\controller\UserController.java
+D:\gitManager\gitCode\xm-skeleton\api-server\src\main\java\com\xm\article\module\base\feign\impl\UserFeignServiceImpl.java
+D:\gitManager\gitCode\xm-skeleton\api-server\src\main\java\com\xm\article\hystrix\RequestContextHolderHystrixConcurrencyStrategy.java
+D:\gitManager\gitCode\xm-skeleton\api-server\src\main\java\com\xm\article\module\base\service\impl\UserLocalServiceImpl.java
+D:\gitManager\gitCode\xm-skeleton\api-server\src\main\java\com\xm\article\module\base\feign\UserFeignService.java
+D:\gitManager\gitCode\xm-skeleton\api-server\src\main\java\com\xm\article\hystrix\RequestContextHolderCallable.java

@@ -1,0 +1,17 @@
+D:\gitManager\gitCode\xm-skeleton\user-server\src\main\java\com\xm\user\dto\UserRegisterRequest.java
+D:\gitManager\gitCode\xm-skeleton\user-server\src\main\java\com\xm\user\UserApplication.java
+D:\gitManager\gitCode\xm-skeleton\user-server\src\main\java\com\xm\user\authorization\config\MvcConfig.java
+D:\gitManager\gitCode\xm-skeleton\user-server\src\main\java\com\xm\user\exception\RestExceptionHandler.java
+D:\gitManager\gitCode\xm-skeleton\user-server\src\main\java\com\xm\user\handler\MyMetaObjectHandler.java
+D:\gitManager\gitCode\xm-skeleton\user-server\src\main\java\com\xm\user\module\base\entity\User.java
+D:\gitManager\gitCode\xm-skeleton\user-server\src\main\java\com\xm\user\exception\RestErrorFilter.java
+D:\gitManager\gitCode\xm-skeleton\user-server\src\main\java\com\xm\user\module\base\service\impl\UserServiceImpl.java
+D:\gitManager\gitCode\xm-skeleton\user-server\src\main\java\com\xm\user\authorization\annotation\CurrentUser.java
+D:\gitManager\gitCode\xm-skeleton\user-server\src\main\java\com\xm\user\authorization\manager\impl\RedisTokenManager.java
+D:\gitManager\gitCode\xm-skeleton\user-server\src\main\java\com\xm\user\dto\UserLoginRequest.java
+D:\gitManager\gitCode\xm-skeleton\user-server\src\main\java\com\xm\user\module\base\controller\UserController.java
+D:\gitManager\gitCode\xm-skeleton\user-server\src\main\java\com\xm\user\module\base\mapper\UserMapper.java
+D:\gitManager\gitCode\xm-skeleton\user-server\src\main\java\com\xm\user\module\base\service\IUserService.java
+D:\gitManager\gitCode\xm-skeleton\user-server\src\main\java\com\xm\user\authorization\resolvers\CurrentUserMethodArgumentResolver.java
+D:\gitManager\gitCode\xm-skeleton\user-server\src\main\java\com\xm\user\config\mybatisplus\MybatisPlusConfig.java
+D:\gitManager\gitCode\xm-skeleton\user-server\src\main\java\com\xm\user\authorization\manager\TokenManager.java

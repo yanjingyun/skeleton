@@ -1,0 +1,12 @@
+D:\gitManager\gitCode\xm-skeleton\article-server\src\main\java\com\xm\article\module\article\entity\ArticleCategory.java
+D:\gitManager\gitCode\xm-skeleton\article-server\src\main\java\com\xm\article\module\article\entity\ArticleInfo.java
+D:\gitManager\gitCode\xm-skeleton\article-server\src\main\java\com\xm\article\module\article\controller\ArticleInfoController.java
+D:\gitManager\gitCode\xm-skeleton\article-server\src\main\java\com\xm\article\module\article\service\impl\ArticleInfoServiceImpl.java
+D:\gitManager\gitCode\xm-skeleton\article-server\src\main\java\com\xm\article\module\article\mapper\ArticleInfoMapper.java
+D:\gitManager\gitCode\xm-skeleton\article-server\src\main\java\com\xm\article\ArticleApplication.java
+D:\gitManager\gitCode\xm-skeleton\article-server\src\main\java\com\xm\article\module\article\service\impl\ArticleCategoryServiceImpl.java
+D:\gitManager\gitCode\xm-skeleton\article-server\src\main\java\com\xm\article\module\article\mapper\ArticleCategoryMapper.java
+D:\gitManager\gitCode\xm-skeleton\article-server\src\main\java\com\xm\article\config\mybatisplus\MybatisPlusConfig.java
+D:\gitManager\gitCode\xm-skeleton\article-server\src\main\java\com\xm\article\module\article\service\IArticleCategoryService.java
+D:\gitManager\gitCode\xm-skeleton\article-server\src\main\java\com\xm\article\module\article\service\IArticleInfoService.java
+D:\gitManager\gitCode\xm-skeleton\article-server\src\main\java\com\xm\article\module\article\controller\ArticleCategoryController.java

@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "ignored",
+      "type": "com.yjy.admin.config.IgnoredUrlsProperties",
+      "sourceType": "com.yjy.admin.config.IgnoredUrlsProperties"
+    },
+    {
+      "name": "nginx",
+      "type": "com.yjy.admin.common.ueditor.upload.StorageManager",
+      "sourceType": "com.yjy.admin.common.ueditor.upload.StorageManager"
+    }
+  ],
+  "properties": [
+    {
+      "name": "ignored.urls",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.yjy.admin.config.IgnoredUrlsProperties"
+    }
+  ],
+  "hints": []
+}
